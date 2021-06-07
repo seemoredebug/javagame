@@ -64,12 +64,12 @@ public class Snake {
         else if(head.equals("down"))
             snake[0].y+=25;
 
-        if(snake[0].x>500)
+        if(snake[0].x>499)
             snake[0].x=0;
         else if(snake[0].x<0)
             snake[0].x=500;
 
-        if(snake[0].y>500)
+        if(snake[0].y>499)
             snake[0].y=0;
         else if(snake[0].y<0)
             snake[0].y=500;
